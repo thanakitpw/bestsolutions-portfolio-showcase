@@ -15,8 +15,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Luxury Automotive Showcase",
-  description: "Experience the pinnacle of automotive engineering and design.",
+  title: "โชว์เคสรถยนต์หรูหรา",
+  description: "สัมผัสความเป็นเลิศสูงสุดของวิศวกรรมและการออกแบบรถยนต์",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="th" className="scroll-smooth">
       <body
         className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-black text-white`}
       >

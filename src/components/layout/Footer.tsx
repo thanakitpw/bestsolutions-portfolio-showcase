@@ -4,30 +4,30 @@ import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 export function Footer() {
   const footerLinks = [
     {
-      title: "Models",
+      title: "รุ่นรถ",
       links: [
-        { label: "Sedans", href: "/vehicles" },
-        { label: "SUVs", href: "/vehicles" },
-        { label: "Coupes", href: "/vehicles" },
-        { label: "Electric Vehicles", href: "/vehicles" }
+        { label: "ซีดาน", href: "/vehicles" },
+        { label: "SUV", href: "/vehicles" },
+        { label: "คูเป", href: "/vehicles" },
+        { label: "รถไฟฟ้า", href: "/vehicles" }
       ],
     },
     {
-      title: "Experience",
+      title: "ประสบการณ์",
       links: [
-        { label: "Design", href: "/design" },
-        { label: "Innovation", href: "/innovation" },
-        { label: "Sustainability", href: "/innovation" },
-        { label: "Heritage", href: "/heritage" }
+        { label: "การออกแบบ", href: "/design" },
+        { label: "นวัตกรรม", href: "/innovation" },
+        { label: "ความยั่งยืน", href: "/innovation" },
+        { label: "มรดก", href: "/heritage" }
       ],
     },
     {
-      title: "Support",
+      title: "การสนับสนุน",
       links: [
-        { label: "Contact Us", href: "/contact" },
-        { label: "Find a Dealer", href: "/contact" },
-        { label: "Financial Services", href: "/contact" },
-        { label: "Recall Information", href: "/contact" }
+        { label: "ติดต่อเรา", href: "/contact" },
+        { label: "ค้นหาตัวแทนจำหน่าย", href: "/contact" },
+        { label: "บริการทางการเงิน", href: "/contact" },
+        { label: "ข้อมูลการเรียกคืน", href: "/contact" }
       ],
     },
   ];
@@ -39,12 +39,11 @@ export function Footer() {
           {/* Brand Section */}
           <div className="lg:col-span-2 space-y-6">
             <Link href="/" className="text-3xl font-playfair tracking-widest text-white block">
-              LUXURY
+              หรูหรา
             </Link>
             <p className="text-sm leading-relaxed max-w-sm">
-              Experience the pinnacle of automotive engineering and design. 
-              Crafting vehicles that define the future of mobility while 
-              honoring a legacy of uncompromising excellence.
+              สัมผัสความเป็นเลิศสูงสุดของวิศวกรรมและการออกแบบรถยนต์ 
+              สร้างสรรค์ยานพาหนะที่กำหนดอนาคตของการเคลื่อนที่ ขณะเดียวกันยังรักษามรดกแห่งความเป็นเลิศอย่างไม่เปลี่ยนแปลง
             </p>
             <div className="flex gap-4 pt-4">
               <a href="#" className="hover:text-white transition-colors p-2 rounded-full border border-white/20 hover:border-white/50">
@@ -91,11 +90,11 @@ export function Footer() {
 
         {/* Bottom Section */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
-          <p>© {new Date().getFullYear()} Luxury Automotive Showcase. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Luxury Automotive Showcase. สงวนลิขสิทธิ์ทั้งหมด.</p>
           <div className="flex gap-6">
-            <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="#" className="hover:text-white transition-colors">Cookie Policy</Link>
+            <Link href="#" className="hover:text-white transition-colors">นโยบายความเป็นส่วนตัว</Link>
+            <Link href="#" className="hover:text-white transition-colors">เงื่อนไขการใช้งาน</Link>
+            <Link href="#" className="hover:text-white transition-colors">นโยบายคุกกี้</Link>
           </div>
         </div>
       </div>

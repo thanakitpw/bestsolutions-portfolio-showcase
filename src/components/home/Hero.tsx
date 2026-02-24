@@ -49,7 +49,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-white/60 tracking-[0.2em] uppercase text-sm mb-4"
           >
-            The New Standard
+            มาตรฐานใหม่แห่งความหรู
           </motion.p>
           
           <motion.h1
@@ -58,9 +58,9 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.4 }}
             className="font-playfair text-5xl md:text-7xl lg:text-8xl text-white leading-[1.1] mb-8"
           >
-            Engineering <br />
+            วิศวกรรม <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-300 via-white to-zinc-400">
-              Excellence
+              ความเป็นเลิศ
             </span>
           </motion.h1>
 
@@ -71,10 +71,10 @@ export function Hero() {
             className="flex flex-col sm:flex-row gap-6"
           >
             <Link href="/vehicles" className="inline-flex justify-center items-center px-8 py-4 bg-white text-black font-semibold tracking-widest uppercase text-sm hover:bg-zinc-200 transition-colors duration-300">
-              Discover More
+              สำรวจเพิ่มเติม
             </Link>
             <Link href="/contact" className="inline-flex justify-center items-center px-8 py-4 border border-white/30 text-white font-semibold tracking-widest uppercase text-sm hover:bg-white/10 transition-colors duration-300 backdrop-blur-sm">
-              Build Your Own
+              สร้างรถของคุณ
             </Link>
           </motion.div>
         </div>
@@ -88,7 +88,7 @@ export function Hero() {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
       >
-        <span className="text-white/50 text-[10px] uppercase tracking-widest">Scroll</span>
+        <span className="text-white/50 text-[10px] uppercase tracking-widest">เลื่อนลง</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}

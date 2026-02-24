@@ -49,13 +49,13 @@ export function Storytelling() {
               className="absolute top-0 left-0 w-full h-full flex flex-col justify-center"
             >
               <p className="text-[#D4AF37] tracking-[0.2em] uppercase text-sm mb-6 font-semibold">
-                The Heritage
+                มรดกของเรา
               </p>
               <h2 className="font-playfair text-4xl md:text-6xl text-white mb-6 leading-tight">
-                A Century of <br /> Innovation
+                ศตวรรษแห่ง <br /> นวัตกรรม
               </h2>
               <p className="text-white/70 text-lg leading-relaxed max-w-xl">
-                Every line drawn, every curve sculpted is a testament to our unwavering commitment to perfection. We don&apos;t just build vehicles; we craft legacies that stand the test of time.
+                ทุกเส้นที่วาด ทุกโค้งที่สร้างสรรค์เป็นพยานรับถึงความมุ่งมั่นของเราอย่างไม่เปลี่ยนแปลง เราไม่ได้เพียงสร้างยานพาหนะ เราสร้างมรดกแห่งความเป็นเลิศที่ยืนหยัด
               </p>
             </motion.div>
 
@@ -65,13 +65,13 @@ export function Storytelling() {
               className="absolute top-0 left-0 w-full h-full flex flex-col justify-center pointer-events-none"
             >
               <p className="text-[#D4AF37] tracking-[0.2em] uppercase text-sm mb-6 font-semibold">
-                The Craftsmanship
+                ฝีมือช่าง
               </p>
               <h2 className="font-playfair text-4xl md:text-6xl text-white mb-6 leading-tight">
-                Mastery in <br /> Every Detail
+                ความเป็นเลิศใน <br /> ทุกรายละเอียด
               </h2>
               <p className="text-white/70 text-lg leading-relaxed max-w-xl">
-                From hand-stitched leather interiors to precision-machined engine components, our artisans pour their soul into creating an environment that transcends mere transportation.
+                จากหนังสักหนังหนังภายในที่ประณีตห์ด้วยมือ ไปจนถึงกลไกเครื่องยนต์ที่ขัดสูบด้วยความแม่นยำ ช่างฝีมือของเรามอบวิญญาณให้สภาพแวดล้อมที่เหนือกว่าการขนส่งเพียงอย่างเดียว
               </p>
             </motion.div>
 
@@ -81,17 +81,17 @@ export function Storytelling() {
               className="absolute top-0 left-0 w-full h-full flex flex-col justify-center pointer-events-none"
             >
               <p className="text-[#D4AF37] tracking-[0.2em] uppercase text-sm mb-6 font-semibold">
-                The Future
+                อนาคต
               </p>
               <h2 className="font-playfair text-4xl md:text-6xl text-white mb-6 leading-tight">
-                Electrifying <br /> Performance
+                ประสิทธิภาพ <br /> ไฟฟ้า
               </h2>
               <p className="text-white/70 text-lg leading-relaxed max-w-xl mb-8">
-                As we look to the horizon, our vision remains clear. Embracing sustainable power without compromising the exhilarating performance that defines our badge.
+                เมื่อเรามองไปยังขอบฟ้า วิสัยทัศน์ของเรายังคงชัดเจน ผนวกพลังงานที่ยั่งยืนโดยไม่ยอมทอดทานประสิทธิภาพที่เป็นเอกลักษณ์ของเรา
               </p>
               <div>
                 <Link href="/innovation" className="inline-block pointer-events-auto px-8 py-4 border border-white/30 text-white font-semibold tracking-widest uppercase text-sm hover:bg-white hover:text-black transition-all duration-300">
-                  Explore the Future
+                  สำรวจอนาคต
                 </Link>
               </div>
             </motion.div>
