@@ -3,7 +3,7 @@
 :root {
   --background: #000000;
   --foreground: #ffffff;
-  --font-noto-sans-thai: 'Noto Sans Thai', sans-serif;
+  --font-inter: 'Inter', sans-serif;
 }
 
 @theme inline {
@@ -18,7 +18,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-noto-sans-thai), sans-serif;
+  font-family: var(--font-inter), sans-serif;
   overflow-x: hidden;
 }
 

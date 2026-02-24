@@ -9,18 +9,18 @@ import { ArrowRight } from "lucide-react";
 const models = [
   {
     id: "s-class",
-    name: "S-Class",
-    category: "ซีดาน",
-    description: "จุดสูงสุดของความหรูสมัยใหม่และเทคโนโลยีขั้นสูง",
+    name: "The S-Class",
+    category: "Sedan",
+    description: "The pinnacle of modern luxury and advanced technology.",
     image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2940&auto=format&fit=crop",
     colSpan: "col-span-1 md:col-span-2 lg:col-span-2",
     rowSpan: "row-span-1 lg:row-span-2",
   },
   {
     id: "g-class",
-    name: "G-Class",
+    name: "The G-Class",
     category: "SUV",
-    description: "การออกแบบที่ไม่ซ้ำใครพบประสบการณ์ความสามารถที่ไร้ที่เปรียบ",
+    description: "Unmistakable design meets unparalleled capability.",
     image: "https://images.unsplash.com/photo-1520050206274-a1ae44613e6d?q=80&w=2940&auto=format&fit=crop",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
@@ -28,8 +28,8 @@ const models = [
   {
     id: "gt-coupe",
     name: "AMG GT",
-    category: "คูเป",
-    description: "ประสิทธิภาพบริสุทธิ์ที่เกิดจากสนามแข่ง",
+    category: "Coupe",
+    description: "Pure performance born on the track.",
     image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=2915&auto=format&fit=crop",
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
@@ -37,8 +37,8 @@ const models = [
   {
     id: "eqs",
     name: "EQS Sedan",
-    category: "ไฟฟ้า",
-    description: "อนาคตของความหรูแบบก้าวหน้าคือไฟฟ้า",
+    category: "Electric",
+    description: "The future of progressive luxury is electric.",
     image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2938&auto=format&fit=crop",
     colSpan: "col-span-1 md:col-span-2",
     rowSpan: "row-span-1",
@@ -67,7 +67,7 @@ export function FeaturedGallery() {
               transition={{ duration: 0.6 }}
               className="text-white/60 tracking-[0.2em] uppercase text-sm mb-4"
             >
-              ผลงานชิ้นเอกของเรา
+              Our Masterpieces
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -76,7 +76,7 @@ export function FeaturedGallery() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="font-playfair text-4xl md:text-5xl text-white"
             >
-              รุ่นรถที่โดดเด่น
+              Featured Models
             </motion.h2>
           </div>
           
@@ -90,7 +90,7 @@ export function FeaturedGallery() {
               href="/vehicles" 
               className="flex items-center gap-2 text-white hover:text-white/70 transition-colors group tracking-widest uppercase text-sm font-semibold"
             >
-              ดูรุ่นรถทั้งหมด
+              View All Models
               <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
             </Link>
           </motion.div>
@@ -130,7 +130,7 @@ export function FeaturedGallery() {
                       {model.description}
                     </p>
                     <Link href={`/vehicles`} className="flex items-center gap-2 text-white uppercase tracking-widest text-xs font-semibold hover:text-white/70 transition-colors">
-                      สำรวจรายละเอียด
+                      Explore Details
                       <ArrowRight size={14} />
                     </Link>
                   </div>

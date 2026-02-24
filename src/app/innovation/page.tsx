@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function InnovationPage() {
   const innovations = [
     {
-      title: "ระบบขับเคลื่อนไฟฟ้า",
-      description: "เทคโนโลยีชั้นนำที่ยกระดับประสบการณ์การขับขี่ถึงระดับที่ไม่เคยมีมาก่อน พร้อมการปล่อยมลภาวะศูนย์",
+      title: "Electric Drive",
+      description: "Pioneering technologies that elevate the driving experience to unprecedented heights with zero emissions.",
       image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2938&auto=format&fit=crop"
     },
     {
-      title: "ระบบไร้คนขับ",
-      description: "เซ็นเซอร์อาร์เรย์รุ่นถัดไปและ AI ที่ทำนายและตอบสนองต่อสภาพแวดล้อมของคุณก่อนที่คุณจะสังเกตเห็น",
+      title: "Autonomous Systems",
+      description: "Next-generation sensor arrays and AI that predict and respond to your environment before you even notice.",
       image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2940&auto=format&fit=crop"
     },
     {
-      title: "ส่วนติดต่ออัจฉริยะ",
-      description: "ระบบนิเวศดิจิทัลที่เรียนรู้ความชอบของคุณและผสานรวมเข้ากับชีวิตดิจิทัลของคุณอย่างราบรื่น",
+      title: "Smart Interface",
+      description: "An intuitive digital ecosystem that learns your preferences and seamlessly integrates with your digital life.",
       image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2940&auto=format&fit=crop"
     }
   ];
@@ -22,9 +22,9 @@ export default function InnovationPage() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-black pt-32 px-6 md:px-12 pb-24">
       <div className="max-w-7xl mx-auto w-full">
-        <h1 className="font-playfair text-5xl md:text-7xl text-white mb-8">นวัตกรรม</h1>
+        <h1 className="font-playfair text-5xl md:text-7xl text-white mb-8">Innovation</h1>
         <p className="text-white/70 max-w-2xl text-lg mb-16">
-          การแสวงหาความก้าวหน้าอย่างไม่หยุดยั้ง เราประดิษฐ์อนาคตของการเคลื่อนที่ด้วยระบบขับเคลื่อนอัจฉริยะ ส่วนติดต่อที่ใช้งานง่าย และความปลอดภัยที่ไม่เปลี่ยนแปลง
+          The relentless pursuit of progress. We invent the future of mobility with intelligent drive systems, intuitive interfaces, and uncompromising safety.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

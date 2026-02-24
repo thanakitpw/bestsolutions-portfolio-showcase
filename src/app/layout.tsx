@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { Playfair_Display } from "next/font/google";
-import { Noto_Sans_Thai } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
-const notoSansThai = Noto_Sans_Thai({
-  variable: "--font-noto-sans-thai",
-  subsets: ["thai"],
-  weight: ["300", "400", "500", "600", "700"],
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
 });
 
 const playfair = Playfair_Display({
@@ -17,8 +16,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "โชว์เคสรถยนต์หรูหรา",
-  description: "สัมผัสความเป็นเลิศสูงสุดของวิศวกรรมและการออกแบบรถยนต์",
+  title: "Luxury Automotive Showcase",
+  description: "Experience the pinnacle of automotive engineering and design.",
 };
 
 export default function RootLayout({
@@ -27,9 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="th" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${notoSansThai.variable} ${playfair.variable} font-sans antialiased bg-black text-white`}
+        className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-black text-white`}
       >
         <Navbar />
         {children}

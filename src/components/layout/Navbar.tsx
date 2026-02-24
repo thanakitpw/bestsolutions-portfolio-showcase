@@ -19,10 +19,10 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "รถยนต์", href: "/vehicles" },
-    { name: "การออกแบบ", href: "/design" },
-    { name: "นวัตกรรม", href: "/innovation" },
-    { name: "มรดก", href: "/heritage" },
+    { name: "Vehicles", href: "/vehicles" },
+    { name: "Design", href: "/design" },
+    { name: "Innovation", href: "/innovation" },
+    { name: "Heritage", href: "/heritage" },
   ];
 
   return (
@@ -40,7 +40,7 @@ export function Navbar() {
           href="/" 
           className="text-2xl font-playfair tracking-widest text-white hover:text-white/80 transition-colors z-50"
         >
-          หรูหรา
+          LUXURY
         </Link>
 
         {/* Desktop Navigation */}
@@ -63,7 +63,7 @@ export function Navbar() {
             href="/contact"
             className="text-xs font-semibold tracking-widest uppercase border border-white/30 px-6 py-3 rounded-none hover:bg-white hover:text-black transition-all duration-300"
           >
-            ติดต่อเรา
+            Contact Us
           </Link>
         </div>
 
@@ -100,7 +100,7 @@ export function Navbar() {
             className="mt-8 text-sm font-semibold tracking-widest uppercase border border-white/50 px-8 py-4 rounded-none hover:bg-white hover:text-black transition-all duration-300 w-full text-center max-w-[200px]"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            ติดต่อเรา
+            Contact Us
           </Link>
         </nav>
       </div>

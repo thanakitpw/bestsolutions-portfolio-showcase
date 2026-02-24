@@ -4,40 +4,40 @@ import { ArrowRight } from "lucide-react";
 
 const vehicles = [
   {
-    name: "S-Class",
-    category: "ซีดาน",
+    name: "The S-Class",
+    category: "Sedan",
     image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2940&auto=format&fit=crop",
-    price: "เริ่มต้น 3,990,000 บาท"
+    price: "From $114,500"
   },
   {
-    name: "G-Class",
+    name: "The G-Class",
     category: "SUV",
     image: "https://images.unsplash.com/photo-1520050206274-a1ae44613e6d?q=80&w=2940&auto=format&fit=crop",
-    price: "เริ่มต้น 4,890,000 บาท"
+    price: "From $139,900"
   },
   {
     name: "AMG GT",
-    category: "คูเป",
+    category: "Coupe",
     image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=2915&auto=format&fit=crop",
-    price: "เริ่มต้น 4,170,000 บาท"
+    price: "From $119,650"
   },
   {
     name: "EQS Sedan",
-    category: "ไฟฟ้า",
+    category: "Electric",
     image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=2938&auto=format&fit=crop",
-    price: "เริ่มต้น 3,640,000 บาท"
+    price: "From $104,400"
   },
   {
     name: "C-Class Sedan",
-    category: "ซีดาน",
+    category: "Sedan",
     image: "https://images.unsplash.com/photo-1633507316345-12e02206bcba?q=80&w=2940&auto=format&fit=crop",
-    price: "เริ่มต้น 1,610,000 บาท"
+    price: "From $46,000"
   },
   {
     name: "GLE SUV",
     category: "SUV",
     image: "https://images.unsplash.com/photo-1582236357022-7774bd0a4b7d?q=80&w=2942&auto=format&fit=crop",
-    price: "เริ่มต้น 2,190,000 บาท"
+    price: "From $62,650"
   }
 ];
 
@@ -45,9 +45,9 @@ export default function VehiclesPage() {
   return (
     <main className="flex min-h-screen w-full flex-col bg-black pt-32 px-6 md:px-12 pb-24">
       <div className="max-w-7xl mx-auto w-full">
-        <h1 className="font-playfair text-5xl md:text-7xl text-white mb-8">รถยนต์ของเรา</h1>
+        <h1 className="font-playfair text-5xl md:text-7xl text-white mb-8">Our Vehicles</h1>
         <p className="text-white/70 max-w-2xl text-lg mb-16">
-          สำรวจรุ่นรถยนต์หรูหราทั้งหมดของเรา ตั้งแต่ซีดานที่มีพลังจนถึง SUV ที่หลากหลาย ทุกรุ่นถูกสร้างขึ้นด้วยความใส่ใจในรายละเอียดอย่างไม่เปลี่ยนแปลง
+          Explore our complete lineup of luxury vehicles. From dynamic sedans to versatile SUVs, every model is crafted with uncompromising attention to detail.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
